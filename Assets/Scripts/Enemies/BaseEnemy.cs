@@ -15,6 +15,7 @@ public abstract class BaseEnemy : MonoBehaviour
     {
         rigidBody2D= GetComponent<Rigidbody2D>();
         playerTarget= GameObject.FindWithTag("Player");
+        navMeshAgent.speed= moveSpeed;
         if (playerTarget == null)
         {
             Debug.LogError(" There is no player in the game put something that has 'Player' tag");
