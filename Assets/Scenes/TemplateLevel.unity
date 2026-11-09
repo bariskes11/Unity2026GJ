@@ -2681,7 +2681,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You're out of numbers...
+  m_text: You showed your number!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3063,13 +3063,14 @@ GameObject:
   - component: {fileID: 814169417}
   - component: {fileID: 814169419}
   - component: {fileID: 814169418}
+  - component: {fileID: 814169420}
   m_Layer: 5
   m_Name: HitPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &814169417
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3102,8 +3103,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
+  m_Color: {r: 1, g: 0.0990566, b: 0.0990566, a: 0}
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -3127,6 +3128,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 814169416}
   m_CullTransparentMesh: 1
+--- !u!114 &814169420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814169416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395934ef4d9456d46ab7eb29b25681ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HitEffect
+  hitBgImage: {fileID: 814169418}
+  maxAlpha: 0.4
 --- !u!1 &827143007
 GameObject:
   m_ObjectHideFlags: 0
@@ -3191,7 +3206,7 @@ MonoBehaviour:
   m_BuildHeightMesh: 0
   m_MinRegionArea: 0
   m_HideEditorLogs: 0
-  m_NavMeshData: {fileID: 23800000, guid: 7e568856b07a45a4baa5c2abd2a5125c, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 83aa082bfd3df654daf5d2ed2ce8f88e, type: 2}
 --- !u!4 &827143010
 Transform:
   m_ObjectHideFlags: 0
@@ -4409,6 +4424,7 @@ MonoBehaviour:
   gameOverPanel: {fileID: 2144546929}
   levelCompletedPanel: {fileID: 2011935548}
   btnRetry: {fileID: 19391891}
+  btnNextLevel: {fileID: 1564719525}
 --- !u!1 &1512037508
 GameObject:
   m_ObjectHideFlags: 0
@@ -4559,7 +4575,7 @@ GameObject:
   - component: {fileID: 1564719526}
   - component: {fileID: 1564719525}
   m_Layer: 5
-  m_Name: Button
+  m_Name: btnNextLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4861,7 +4877,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TRY AGAIN
+  m_text: Next Level
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5691,7 +5707,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2011935549
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6114,6 +6130,7 @@ GameObject:
   - component: {fileID: 2063758187}
   - component: {fileID: 2063758186}
   - component: {fileID: 2063758190}
+  - component: {fileID: 2063758191}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -6271,6 +6288,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelDoorChecker
   doorOpenNumber: 15
+--- !u!50 &2063758191
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063758185}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &2098225941
 GameObject:
   m_ObjectHideFlags: 0

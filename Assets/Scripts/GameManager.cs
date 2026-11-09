@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject gameOverPanel;
     [SerializeField] GameObject levelCompletedPanel;
     [SerializeField] Button btnRetry;
+    [SerializeField] Button btnNextLevel;
     private void Start()
     {
         gameOverPanel.SetActive(false);
@@ -15,6 +16,15 @@ public class GameManager : MonoBehaviour
         EventManager.OnPlayerDead.AddListener(EnableGameOverPanel);
         btnRetry.onClick.RemoveAllListeners();
         btnRetry.onClick.AddListener(ReloadCurrentScene);
+        btnNextLevel.onClick.RemoveAllListeners();
+        btnNextLevel.onClick.AddListener(LoadNextLevel);
+    }
+
+    private void LoadNextLevel()
+    {
+        Scene activeScene = SceneManager.GetActiveScene();
+       int nextScene= activeScene.buildIndex + 1; // this will change we need to mae sure next Scenario exists
+        SceneManager.LoadScene(nextScene); //  
     }
 
     private void ReloadCurrentScene()

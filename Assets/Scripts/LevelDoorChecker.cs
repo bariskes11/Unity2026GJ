@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class LevelDoorChecker : MonoBehaviour
@@ -14,8 +15,10 @@ public class LevelDoorChecker : MonoBehaviour
         }
     }
 
+    
+
     // Update is called once per frame
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.TryGetComponent<PlayerHealth>(out var playerHealth))
         {

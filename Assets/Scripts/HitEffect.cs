@@ -22,6 +22,7 @@ public class HitEffect : MonoBehaviour
     }
     async UniTaskVoid RunHitEffect()
     {
+        Debug.Log("Player Hit Effect");
         Color targetColor = hitBgImage.color;
         targetColor.a = maxAlpha;
         hitBgImage.color = targetColor;

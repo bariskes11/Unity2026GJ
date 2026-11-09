@@ -54,6 +54,10 @@ public class PlayerHealth : MonoBehaviour
             Die();
 
         }
+        else
+        {
+            EventManager.OnPlayerTakeDamage?.Invoke();
+        }
         playerNumberIndicator.text = CurrentPlayerNumber.ToString();
 
 
