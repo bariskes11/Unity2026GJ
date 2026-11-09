@@ -1,3 +1,4 @@
+using PrimeTween;
 using TMPro;
 using UnityEngine;
 using static CommonEnums;
@@ -10,6 +11,9 @@ public class PlayerCollector : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent<ICollectable>(out var collectable))
         {
+            
+            Tween.Scale(transform, endValue: Vector3.one * 1.3f, duration: 0.15f, ease: Ease.InOutSine, cycles: 2, cycleMode: CycleMode.Yoyo);
+
             collectable.Collect();
             int collectedNumber = collectable.CollectedNumber;
             int currentNumber = int.Parse(txtCurrentNumber.text);

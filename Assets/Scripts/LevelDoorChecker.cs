@@ -28,8 +28,9 @@ public class LevelDoorChecker : MonoBehaviour
                 gameManager.LevelCompleted();
             }
             else
-            { 
-            // inform you need more number
+            {
+                // inform you need more number
+                gameManager.ShowWarning();
 
             }
         }

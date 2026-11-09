@@ -20,7 +20,7 @@ public abstract class BaseEnemy : MonoBehaviour
         rigidBody2D = GetComponent<Rigidbody2D>();
         playerTarget = GameObject.FindWithTag("Player");
         navMeshAgent.speed = moveSpeed;
-        txtNumber.text = enemyNumber.ToString();
+        txtNumber.text = GetDamageType()+ enemyNumber.ToString();
         if (playerTarget == null)
         {
             Debug.LogError(" There is no player in the game put something that has 'Player' tag");
@@ -39,9 +39,9 @@ public abstract class BaseEnemy : MonoBehaviour
             return "/";
         }
 
-        if (this.enemyType == CommonEnums.EnemyType.Divide)
+        if (this.enemyType == CommonEnums.EnemyType.RootSquare)
         {
-            return "/";
+            return "√";
         }
         else
         {

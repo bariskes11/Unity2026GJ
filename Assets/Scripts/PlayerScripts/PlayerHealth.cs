@@ -30,7 +30,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(EnemyType enemyType, int enemyNumber)
     {
-        Debug.Log($"Took Damage {enemyNumber} damage Type: {enemyType.ToString()}");
+        
         if (enemyType == EnemyType.Divide)
         {
             CurrentPlayerNumber = CurrentPlayerNumber / enemyNumber;

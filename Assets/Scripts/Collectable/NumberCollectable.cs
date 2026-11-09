@@ -1,3 +1,4 @@
+using PrimeTween;
 using TMPro;
 using UnityEngine;
 using static CommonEnums;
@@ -10,8 +11,9 @@ public class NumberCollectable : MonoBehaviour, ICollectable
     [SerializeField] ParticleSystem collectedParticle;
 
     public int CollectedNumber => collectionNumber;
-
+    
     public BonusType BonusType => bonusType;
+    private bool isCollected = false;
 
     private void Awake()
     {
@@ -32,11 +34,17 @@ public class NumberCollectable : MonoBehaviour, ICollectable
 
     public void Collect()
     {
-
+        if (isCollected)
+        {
+            return;
+        }
+        isCollected = true;
         PoolManager.Instance.Spawn(collectedParticle, this.transform.position, this.transform.rotation);
-        Debug.Log("Called Collect");
-        Destroy(this.gameObject);
 
+        Tween.Scale(this.transform, Vector3.zero, .3F, Ease.OutQuad).OnComplete(()=>
+        {
+            Destroy(this.gameObject);
+        });
     }
 
 
