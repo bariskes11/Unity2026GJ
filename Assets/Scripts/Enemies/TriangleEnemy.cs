@@ -4,6 +4,7 @@ using UnityEngine;
 public class TriangleEnemy : BaseEnemy
 {
     [SerializeField] float distanceToFollow = 10;
+
     protected override void Awake()
     {
         base.Awake();
@@ -25,13 +26,16 @@ public class TriangleEnemy : BaseEnemy
             navMeshAgent.destination = this.transform.position;
         }
 
-
-        // we will decide based on distance to player 
-        // we will decide based on visibility to player
-
-        //Vector2 direction = (playerTarget.transform.position - transform.position).normalized; // 
-
-
-
     }
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.TryGetComponent<PlayerHealth>(out PlayerHealth playerHealth))
+        {
+            playerHealth.TakeDamage(this.enemyType, this.enemyNumber);
+            Destroy(this.gameObject);
+        }
+    }
+
 }
