@@ -13,6 +13,9 @@ public class NumberCollectable : MonoBehaviour, ICollectable
     public int CollectedNumber => collectionNumber;
 
     public BonusType BonusType => bonusType;
+
+    public bool IsCollected => isCollected;
+
     private bool isCollected = false;
 
     private void Awake()
@@ -41,7 +44,7 @@ public class NumberCollectable : MonoBehaviour, ICollectable
 
         if (!isCollected)
         {
-            Debug.Log($"Collecting {this.CollectedNumber}");
+            
             isCollected = true;
             PoolManager.Instance.Spawn(collectedParticle, this.transform.position, this.transform.rotation);
             Tween.Scale(this.transform, Vector3.zero, .3F, Ease.OutQuad).OnComplete(() =>

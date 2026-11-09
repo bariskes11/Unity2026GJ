@@ -52,7 +52,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: BurstNumberEnemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8797367166668828787, guid: 668662af427041d4e9565dc37b314935, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -99,3 +100,4 @@ MonoBehaviour:
   enemyType: 0
   txtNumber: {fileID: 3433301169347736988}
   distanceToFollow: 1
+  burstTimeOut: 0
