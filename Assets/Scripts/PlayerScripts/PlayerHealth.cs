@@ -8,18 +8,29 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] TextMeshProUGUI playerNumberIndicator;
     private PlayerController playerController;
 
-   public int CurrentPlayerNumber { get; private set; }
+    public int CurrentPlayerNumber { get; private set; }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         playerController = GetComponent<PlayerController>();
         int.TryParse(playerNumberIndicator.text, out int result);
-        CurrentPlayerNumber= result;
+        CurrentPlayerNumber = result;
     }
+
+    public void AddNumber(int number)
+    {
+        CurrentPlayerNumber += number;
+    }
+    public void MulitplyNumber(int number)
+    {
+        CurrentPlayerNumber *= number;
+    }
+
 
 
     public void TakeDamage(EnemyType enemyType, int enemyNumber)
     {
+        Debug.Log($"Took Damage {enemyNumber} damage Type: {enemyType.ToString()}");
         if (enemyType == EnemyType.Divide)
         {
             CurrentPlayerNumber = CurrentPlayerNumber / enemyNumber;
@@ -27,7 +38,7 @@ public class PlayerHealth : MonoBehaviour
         }
         if (enemyType == EnemyType.Substract)
         {
-            CurrentPlayerNumber = CurrentPlayerNumber - enemyNumber;
+            CurrentPlayerNumber = CurrentPlayerNumber - Mathf.Abs(enemyNumber);
         }
 
         if (enemyType == EnemyType.RootSquare)
@@ -35,7 +46,7 @@ public class PlayerHealth : MonoBehaviour
             float roots = Mathf.Sqrt(CurrentPlayerNumber);
             CurrentPlayerNumber = (int)roots;
         }
-
+        Debug.Log($"Player Final number {CurrentPlayerNumber}");
 
         if (CurrentPlayerNumber <= 0)
         {

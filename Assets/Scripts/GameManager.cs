@@ -1,17 +1,36 @@
+using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject gameOverPanel;
-
+    [SerializeField] GameObject levelCompletedPanel;
+    [SerializeField] Button btnRetry;
     private void Start()
     {
-        gameObject.SetActive(false);
+        gameOverPanel.SetActive(false);
+        levelCompletedPanel.SetActive(false);
+        EventManager.OnPlayerDead.AddListener(EnableGameOverPanel);
+        btnRetry.onClick.RemoveAllListeners();
+        btnRetry.onClick.AddListener(ReloadCurrentScene);
+    }
+
+    private void ReloadCurrentScene()
+    {
+        Scene activeScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(activeScene.buildIndex);
     }
 
     public void EnableGameOverPanel()
     {
-        gameObject.SetActive(true);
+        gameOverPanel.SetActive(true);
+    }
+
+    public void LevelCompleted()
+    {
+        levelCompletedPanel.SetActive(true);
     }
 
 }
