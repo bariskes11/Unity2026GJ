@@ -25,7 +25,7 @@ public class PlayerCollector : MonoBehaviour
                 playerHealth.AddNumber(collectedNumber);
                 txtCurrentNumber.text = (targetNumber).ToString();
             }
-            else // multiply
+            else if(collectable.BonusType == BonusType.Multiply) // multiply
             {
                 int targetNumber = currentNumber * collectedNumber;
                 playerHealth.MulitplyNumber(collectedNumber);

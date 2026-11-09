@@ -11,7 +11,7 @@ public class NumberCollectable : MonoBehaviour, ICollectable
     [SerializeField] ParticleSystem collectedParticle;
 
     public int CollectedNumber => collectionNumber;
-    
+
     public BonusType BonusType => bonusType;
     private bool isCollected = false;
 
@@ -38,13 +38,17 @@ public class NumberCollectable : MonoBehaviour, ICollectable
         {
             return;
         }
-        isCollected = true;
-        PoolManager.Instance.Spawn(collectedParticle, this.transform.position, this.transform.rotation);
 
-        Tween.Scale(this.transform, Vector3.zero, .3F, Ease.OutQuad).OnComplete(()=>
+        if (!isCollected)
         {
-            Destroy(this.gameObject);
-        });
+            Debug.Log($"Collecting {this.CollectedNumber}");
+            isCollected = true;
+            PoolManager.Instance.Spawn(collectedParticle, this.transform.position, this.transform.rotation);
+            Tween.Scale(this.transform, Vector3.zero, .3F, Ease.OutQuad).OnComplete(() =>
+            {
+                Destroy(this.gameObject);
+            });
+        }
     }
 
 
