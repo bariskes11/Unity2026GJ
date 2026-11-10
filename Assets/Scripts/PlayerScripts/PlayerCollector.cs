@@ -20,15 +20,15 @@ public class PlayerCollector : MonoBehaviour
 
             if (collectable.BonusType == BonusType.Add)
             {
-                int targetNumber = currentNumber + collectedNumber;
+                
                 playerHealth.AddNumber(collectedNumber);
-                txtCurrentNumber.text = (targetNumber).ToString();
+                txtCurrentNumber.text = (playerHealth.CurrentPlayerNumber).ToString();
             }
             else if(collectable.BonusType == BonusType.Multiply) // multiply
             {
-                int targetNumber = currentNumber * collectedNumber;
+                
                 playerHealth.MulitplyNumber(collectedNumber);
-                txtCurrentNumber.text = (targetNumber).ToString();
+                txtCurrentNumber.text = (playerHealth.CurrentPlayerNumber).ToString();
             }
         }
     }

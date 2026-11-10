@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8554736416970885751}
   - component: {fileID: 5846183253344192546}
   m_Layer: 6
-  m_Name: BurstProjectile
+  m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

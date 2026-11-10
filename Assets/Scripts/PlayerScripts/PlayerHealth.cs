@@ -20,12 +20,19 @@ public class PlayerHealth : MonoBehaviour
     public void AddNumber(int number)
     {
         CurrentPlayerNumber += number;
+        NumberClamp();
     }
     public void MulitplyNumber(int number)
     {
         CurrentPlayerNumber *= number;
+        NumberClamp();
     }
 
+    void NumberClamp()
+    {
+
+        CurrentPlayerNumber = Mathf.Clamp(CurrentPlayerNumber, 0, 999);
+    }
 
 
     public void TakeDamage(EnemyType enemyType, int enemyNumber)

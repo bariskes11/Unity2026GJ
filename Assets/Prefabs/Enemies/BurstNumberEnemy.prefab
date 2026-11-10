@@ -42,11 +42,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3496736264650565022, guid: 668662af427041d4e9565dc37b314935, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.66
+      value: -11.9550495
       objectReference: {fileID: 0}
     - target: {fileID: 3496736264650565022, guid: 668662af427041d4e9565dc37b314935, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3.51834
       objectReference: {fileID: 0}
     - target: {fileID: 3496736264650565022, guid: 668662af427041d4e9565dc37b314935, type: 3}
       propertyPath: m_LocalPosition.z
@@ -58,15 +58,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3496736264650565022, guid: 668662af427041d4e9565dc37b314935, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3496736264650565022, guid: 668662af427041d4e9565dc37b314935, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3496736264650565022, guid: 668662af427041d4e9565dc37b314935, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3496736264650565022, guid: 668662af427041d4e9565dc37b314935, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -138,5 +138,5 @@ MonoBehaviour:
   txtNumber: {fileID: 3433301169347736988}
   distanceToFollow: 1
   burstTimeOut: 1
-  bulletGameObject: {fileID: 0}
+  bulletGameObject: {fileID: 5846183253344192546, guid: 1eb292a7986015543a6ec3e2d5dfb952, type: 3}
   bulletSpeed: 2
