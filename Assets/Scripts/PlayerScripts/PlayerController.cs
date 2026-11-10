@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
     {
         if (isDashing)
         {
+            transform.up = lastMoveDirection;
             rigidBody2d.linearVelocity = lastMoveDirection * dashSpeed * Time.fixedDeltaTime;
         }
         else
@@ -67,17 +68,20 @@ public class PlayerController : MonoBehaviour
         transform.right = dashDirection;
 
         // 2. Stretch along local X (forward) and squash local Y (sides)
-        Tween.Scale(transform, endValue: new Vector3(1.4f, 0.6f, 1f), duration: dashDuration / 2f, ease: Ease.OutQuad, cycles: 2, cycleMode: CycleMode.Yoyo);
+        await Tween.Scale(transform, endValue: new Vector3(1.4f, 0.6f, 1f), duration: dashDuration / 2f, ease: Ease.OutQuad, cycles: 2, cycleMode: CycleMode.Yoyo);
 
         try
         {
             await UniTask.Delay(System.TimeSpan.FromSeconds(dashDuration), cancellationToken: ct);
+            transform.localScale = Vector3.one;
+
         }
         catch (System.OperationCanceledException)
         {
         }
         finally
         {
+            transform.localScale = Vector3.one;
             isDashing = false;
         }
     }
