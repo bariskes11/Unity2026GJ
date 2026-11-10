@@ -32,10 +32,12 @@ public class PlayerController : MonoBehaviour
         if (inputVector != Vector2.zero)
         {
             lastMoveDirection = inputVector;
+            transform.up = inputVector;
         }
-        if (Input.GetKey(KeyCode.Space))
+        
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            dashDirection = inputVector != Vector2.zero ? inputVector : lastMoveDirection;
+          //  dashDirection = inputVector != Vector2.zero ? inputVector : lastMoveDirection;
             PerformDashAsync(this.GetCancellationTokenOnDestroy()).Forget();
         }
     }
@@ -43,11 +45,11 @@ public class PlayerController : MonoBehaviour
     {
         if (isDashing)
         {
-            rigidBody2d.linearVelocity = dashDirection * dashSpeed * Time.deltaTime;
+            rigidBody2d.linearVelocity = lastMoveDirection * dashSpeed * Time.fixedDeltaTime;
         }
         else
         {
-            rigidBody2d.linearVelocity = inputVector * moveSpeed * Time.deltaTime;
+            rigidBody2d.linearVelocity = inputVector * moveSpeed * Time.fixedDeltaTime;
         }
 
 
