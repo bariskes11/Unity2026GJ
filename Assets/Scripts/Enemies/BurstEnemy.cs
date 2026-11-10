@@ -18,10 +18,9 @@ public class BurstEnemy : BaseEnemy
     void Update()
     {
         elapsedTime += Time.deltaTime;
-        if (elapsedTime > burstTimeOut)
+        if (elapsedTime >= burstTimeOut)
         {
             elapsedTime = 0;
-            Debug.Log("Now burst numbers around");
             SpawnBurst();
         }
     }

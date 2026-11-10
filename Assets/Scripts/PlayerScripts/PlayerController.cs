@@ -26,8 +26,9 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         if (isDashing) return;
-        float hInput = Input.GetAxis("Horizontal");
-        float vInput = Input.GetAxis("Vertical");
+        
+        float hInput = Input.GetAxisRaw("Horizontal");
+        float vInput = Input.GetAxisRaw("Vertical");
         inputVector = new Vector2(hInput, vInput).normalized;
         if (inputVector != Vector2.zero)
         {
