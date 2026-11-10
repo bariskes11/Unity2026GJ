@@ -1,5 +1,6 @@
 using Cysharp.Threading.Tasks;
 using PrimeTween;
+using System;
 using System.Threading;
 using UnityEngine;
 
@@ -7,8 +8,12 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] float moveSpeed;
+    [SerializeField] float speedModeMoveSpeed;
+    [SerializeField] GameObject speedTrail;
+    [SerializeField] float speedModeTimeOut;
     [SerializeField] float dashSpeed;
     [SerializeField] float dashDuration;
+    
 
     //private InputSystem_Actions inputActions;
     Rigidbody2D rigidBody2d;
@@ -16,6 +21,8 @@ public class PlayerController : MonoBehaviour
     private bool isDashing = false;
     private Vector2 dashDirection;
     private Vector2 lastMoveDirection = Vector2.right;
+    private bool isSpeedBonusMode = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -38,20 +45,24 @@ public class PlayerController : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Space))
         {
-          //  dashDirection = inputVector != Vector2.zero ? inputVector : lastMoveDirection;
+          
             PerformDashAsync(this.GetCancellationTokenOnDestroy()).Forget();
         }
     }
     private void FixedUpdate()
     {
+        
+        
         if (isDashing)
         {
+            float currentDashSpeed = isSpeedBonusMode ? dashSpeed : dashSpeed * 1.4F;
             transform.up = lastMoveDirection;
             rigidBody2d.linearVelocity = lastMoveDirection * dashSpeed * Time.fixedDeltaTime;
         }
         else
         {
-            rigidBody2d.linearVelocity = inputVector * moveSpeed * Time.fixedDeltaTime;
+            float currentMove = isSpeedBonusMode ? speedModeMoveSpeed : moveSpeed;
+            rigidBody2d.linearVelocity = inputVector * currentMove * Time.fixedDeltaTime;
         }
 
 
@@ -64,10 +75,10 @@ public class PlayerController : MonoBehaviour
         Tween.StopAll(transform);
         transform.localScale = Vector3.one;
 
-        // 1. Rotate the circle's local X-axis (right) to point directly at dashDirection
+        
         transform.right = dashDirection;
 
-        // 2. Stretch along local X (forward) and squash local Y (sides)
+        
         await Tween.Scale(transform, endValue: new Vector3(1.4f, 0.6f, 1f), duration: dashDuration / 2f, ease: Ease.OutQuad, cycles: 2, cycleMode: CycleMode.Yoyo);
 
         try
@@ -84,6 +95,29 @@ public class PlayerController : MonoBehaviour
             transform.localScale = Vector3.one;
             isDashing = false;
         }
+    }
+
+    public void EnableSpeedBoost()
+    {
+        isSpeedBonusMode = true;
+        speedTrail.gameObject.SetActive(true);
+        TimeoutAndDisable();
+
+
+
+
+    }
+    async UniTask TimeoutAndDisable()
+    {
+
+        await UniTask.Delay(TimeSpan.FromSeconds(speedModeTimeOut));
+        isSpeedBonusMode = false;
+        speedTrail.gameObject.SetActive(false);
+
+
+
+
+
     }
 
 }

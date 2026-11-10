@@ -12,6 +12,9 @@ public class CommonEnums
     public enum BonusType
     { 
     Multiply,
-    Add
+    Add,
+    Shield,
+    FreezeEnemy,
+    SpeedBonus
     }
 }

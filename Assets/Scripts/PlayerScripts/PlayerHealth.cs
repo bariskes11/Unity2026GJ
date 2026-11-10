@@ -6,7 +6,9 @@ using static CommonEnums;
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI playerNumberIndicator;
+    [SerializeField] PlayerShield playerShield;
     private PlayerController playerController;
+
 
     public int CurrentPlayerNumber { get; private set; }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -37,7 +39,11 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(EnemyType enemyType, int enemyNumber)
     {
-        
+        if (playerShield.IsShieldEnabled)
+        {
+            return;
+        }
+
         if (enemyType == EnemyType.Divide)
         {
             CurrentPlayerNumber = CurrentPlayerNumber / enemyNumber;
