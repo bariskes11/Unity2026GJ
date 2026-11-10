@@ -42,8 +42,16 @@ public class BurstEnemy : BaseEnemy
             bullet.transform.up = dir;
             bullet.InitBullet(dir);
             
+        }
+    }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.TryGetComponent<PlayerHealth>(out PlayerHealth playerHealth))
+        {
 
+            playerHealth.TakeDamage(this.enemyType, this.enemyNumber);
+            Destroy(this.gameObject);
         }
     }
 

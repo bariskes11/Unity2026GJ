@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af463b77bd3606c4294f092c8027a08b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldBonus
-  bonusType: 4
+  targetBonusType: 2
 --- !u!61 &1125457977612263434
 BoxCollider2D:
   m_ObjectHideFlags: 0
