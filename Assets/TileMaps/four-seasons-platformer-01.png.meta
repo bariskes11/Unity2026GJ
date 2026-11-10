@@ -1,0 +1,1534 @@
+fileFormatVersion: 2
+guid: 661e18d03a3d11f4ba443c9b9b8381dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8336287939955661495
+    second: four-seasons-platformer-01_0
+  - first:
+      213: 419871293437706992
+    second: four-seasons-platformer-01_1
+  - first:
+      213: 4549144895501018680
+    second: four-seasons-platformer-01_2
+  - first:
+      213: 5784550366186664991
+    second: four-seasons-platformer-01_3
+  - first:
+      213: 3813457634305507080
+    second: four-seasons-platformer-01_4
+  - first:
+      213: 8350477655538701545
+    second: four-seasons-platformer-01_5
+  - first:
+      213: -968605398549767049
+    second: four-seasons-platformer-01_6
+  - first:
+      213: 3667412438704199876
+    second: four-seasons-platformer-01_7
+  - first:
+      213: 8778671511375073531
+    second: four-seasons-platformer-01_8
+  - first:
+      213: -3019564124596751532
+    second: four-seasons-platformer-01_9
+  - first:
+      213: 2721660940383817901
+    second: four-seasons-platformer-01_10
+  - first:
+      213: -8637758071591519972
+    second: four-seasons-platformer-01_11
+  - first:
+      213: 7722299111020357899
+    second: four-seasons-platformer-01_12
+  - first:
+      213: -5676709636324528394
+    second: four-seasons-platformer-01_13
+  - first:
+      213: 4931082584120909555
+    second: four-seasons-platformer-01_14
+  - first:
+      213: 356097921414752560
+    second: four-seasons-platformer-01_15
+  - first:
+      213: -8762909935983686124
+    second: four-seasons-platformer-01_16
+  - first:
+      213: 2662955571316689293
+    second: four-seasons-platformer-01_17
+  - first:
+      213: -8849019512098507663
+    second: four-seasons-platformer-01_18
+  - first:
+      213: 7813860673533147025
+    second: four-seasons-platformer-01_19
+  - first:
+      213: -177598095666160318
+    second: four-seasons-platformer-01_20
+  - first:
+      213: 4202738753721090789
+    second: four-seasons-platformer-01_21
+  - first:
+      213: 2112189495848472407
+    second: four-seasons-platformer-01_22
+  - first:
+      213: -8048381126145931167
+    second: four-seasons-platformer-01_23
+  - first:
+      213: -4581907099043412017
+    second: four-seasons-platformer-01_24
+  - first:
+      213: 7062533741283129470
+    second: four-seasons-platformer-01_25
+  - first:
+      213: 7752047720468308337
+    second: four-seasons-platformer-01_26
+  - first:
+      213: -8243624763432475685
+    second: four-seasons-platformer-01_27
+  - first:
+      213: -5110116655588879159
+    second: four-seasons-platformer-01_28
+  - first:
+      213: -5906404175810467171
+    second: four-seasons-platformer-01_29
+  - first:
+      213: 2759099490142104302
+    second: four-seasons-platformer-01_30
+  - first:
+      213: -909326666164583959
+    second: four-seasons-platformer-01_31
+  - first:
+      213: -1271433428149668258
+    second: four-seasons-platformer-01_32
+  - first:
+      213: 3363722399006554198
+    second: four-seasons-platformer-01_33
+  - first:
+      213: -2376152640857716872
+    second: four-seasons-platformer-01_34
+  - first:
+      213: 8270820402450830419
+    second: four-seasons-platformer-01_35
+  - first:
+      213: 2017835367127291292
+    second: four-seasons-platformer-01_36
+  - first:
+      213: 969503489287831502
+    second: four-seasons-platformer-01_37
+  - first:
+      213: -8667215753275372688
+    second: four-seasons-platformer-01_38
+  - first:
+      213: 6824847833027929088
+    second: four-seasons-platformer-01_39
+  - first:
+      213: 2356402380901686333
+    second: four-seasons-platformer-01_40
+  - first:
+      213: -7117359313119590622
+    second: four-seasons-platformer-01_41
+  - first:
+      213: 2033183396565486372
+    second: four-seasons-platformer-01_42
+  - first:
+      213: 4924843330266134212
+    second: four-seasons-platformer-01_43
+  - first:
+      213: -3601788453243254311
+    second: four-seasons-platformer-01_44
+  - first:
+      213: 342638703589841744
+    second: four-seasons-platformer-01_45
+  - first:
+      213: 8328986175876809341
+    second: four-seasons-platformer-01_46
+  - first:
+      213: 879181172228134069
+    second: four-seasons-platformer-01_47
+  - first:
+      213: -8193256345797367177
+    second: four-seasons-platformer-01_48
+  - first:
+      213: -4186357973423657954
+    second: four-seasons-platformer-01_49
+  - first:
+      213: -7288063259834668527
+    second: four-seasons-platformer-01_50
+  - first:
+      213: -8904551072624918784
+    second: four-seasons-platformer-01_51
+  - first:
+      213: -6413710547487648471
+    second: four-seasons-platformer-01_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945e191494e8f4c80800000000000000
+      internalID: -8336287939955661495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 79
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f20db087bea3d500800000000000000
+      internalID: 419871293437706992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 111
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836ae181e2fc12f30800000000000000
+      internalID: 4549144895501018680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 79
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1479e109e9d64050800000000000000
+      internalID: 5784550366186664991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 79
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ff7ca838f1ce430800000000000000
+      internalID: 3813457634305507080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 79
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4983b5f2bd2e370800000000000000
+      internalID: 8350477655538701545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 111
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c5aeb9582de82f0800000000000000
+      internalID: -968605398549767049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_7
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 79
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c810d5ae2445e230800000000000000
+      internalID: 3667412438704199876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_8
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 31
+        width: 75
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf05a5b6a3b14d970800000000000000
+      internalID: 8778671511375073531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_9
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 31
+        width: 11
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453b5e05d6a5816d0800000000000000
+      internalID: -3019564124596751532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_10
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 114
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da012ae843845c520800000000000000
+      internalID: 2721660940383817901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_11
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 114
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1936077cc4802880800000000000000
+      internalID: -8637758071591519972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 95
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09eea1802e1b2b60800000000000000
+      internalID: 7722299111020357899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 95
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fee6d989a64831b0800000000000000
+      internalID: -5676709636324528394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_14
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 96
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe54a8fb79be6440800000000000000
+      internalID: 4931082584120909555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_15
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 84
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0396e2f3c2d11f400800000000000000
+      internalID: 356097921414752560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_16
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 96
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e83f257d3e36680800000000000000
+      internalID: -8762909935983686124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_17
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 84
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d898af0bbf7b4f420800000000000000
+      internalID: 2662955571316689293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 47
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1743eda43a7f13580800000000000000
+      internalID: -8849019512098507663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 79
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197765a02e8607c60800000000000000
+      internalID: 7813860673533147025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_20
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 79
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d5803197b098df0800000000000000
+      internalID: -177598095666160318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 79
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2405321a0235a30800000000000000
+      internalID: 4202738753721090789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 34
+        width: 16
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f0c56d721005d10800000000000000
+      internalID: 2112189495848472407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 63
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1680d1702086e4090800000000000000
+      internalID: -8048381126145931167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_24
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 66
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc74da7f4cbc960c0800000000000000
+      internalID: -4581907099043412017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_25
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 66
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78346fc409230260800000000000000
+      internalID: 7062533741283129470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171e364645ec49b60800000000000000
+      internalID: 7752047720468308337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 31
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd36ef944f2c89d80800000000000000
+      internalID: -8243624763432475685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 47
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c451dee9f73519b0800000000000000
+      internalID: -5110116655588879159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_29
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 40
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9aeee012bc380ea0800000000000000
+      internalID: -5906404175810467171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_30
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 7
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeaa1e13e5a4a4620800000000000000
+      internalID: 2759099490142104302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_31
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 34
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e14876073c6163f0800000000000000
+      internalID: -909326666164583959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_32
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 47
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56f49f8806fa5ee0800000000000000
+      internalID: -1271433428149668258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 47
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6587fcb33b75eae20800000000000000
+      internalID: 3363722399006554198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_34
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 31
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877c19533c5360fd0800000000000000
+      internalID: -2376152640857716872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_35
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 48
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3549229d55bd7c270800000000000000
+      internalID: 8270820402450830419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_36
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 36
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9597d0539ac00c10800000000000000
+      internalID: 2017835367127291292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_37
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 48
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfb08f694e547d00800000000000000
+      internalID: 969503489287831502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_38
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 36
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b0a5a713dd7b780800000000000000
+      internalID: -8667215753275372688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00469bdc1fab6be50800000000000000
+      internalID: 6824847833027929088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 15
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c978d0b7f93b020800000000000000
+      internalID: 2356402380901686333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_41
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22740b20a6f0a3d90800000000000000
+      internalID: -7117359313119590622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_42
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 16
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b0283e681573c10800000000000000
+      internalID: 2033183396565486372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_43
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 16
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6f6fa7aee885440800000000000000
+      internalID: 4924843330266134212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_44
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 15
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d905502c70e30ec0800000000000000
+      internalID: -3601788453243254311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_45
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05bd5c5e51c41c400800000000000000
+      internalID: 342638703589841744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_46
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72c6405cc0869370800000000000000
+      internalID: 8328986175876809341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_47
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 15
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b49ed73e9a733c00800000000000000
+      internalID: 879181172228134069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_48
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 15
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a680363c4bb4e80800000000000000
+      internalID: -8193256345797367177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_49
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 4
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c657b7a9117e5c0800000000000000
+      internalID: -4186357973423657954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_50
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 4
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11aaaf834199bda90800000000000000
+      internalID: -7288063259834668527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_51
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 4
+        width: 82
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f3edf4afdac6480800000000000000
+      internalID: -8904551072624918784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-seasons-platformer-01_52
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 15
+        width: 66
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92592d40d3cedf6a0800000000000000
+      internalID: -6413710547487648471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      four-seasons-platformer-01_0: -8336287939955661495
+      four-seasons-platformer-01_1: 419871293437706992
+      four-seasons-platformer-01_10: 2721660940383817901
+      four-seasons-platformer-01_11: -8637758071591519972
+      four-seasons-platformer-01_12: 7722299111020357899
+      four-seasons-platformer-01_13: -5676709636324528394
+      four-seasons-platformer-01_14: 4931082584120909555
+      four-seasons-platformer-01_15: 356097921414752560
+      four-seasons-platformer-01_16: -8762909935983686124
+      four-seasons-platformer-01_17: 2662955571316689293
+      four-seasons-platformer-01_18: -8849019512098507663
+      four-seasons-platformer-01_19: 7813860673533147025
+      four-seasons-platformer-01_2: 4549144895501018680
+      four-seasons-platformer-01_20: -177598095666160318
+      four-seasons-platformer-01_21: 4202738753721090789
+      four-seasons-platformer-01_22: 2112189495848472407
+      four-seasons-platformer-01_23: -8048381126145931167
+      four-seasons-platformer-01_24: -4581907099043412017
+      four-seasons-platformer-01_25: 7062533741283129470
+      four-seasons-platformer-01_26: 7752047720468308337
+      four-seasons-platformer-01_27: -8243624763432475685
+      four-seasons-platformer-01_28: -5110116655588879159
+      four-seasons-platformer-01_29: -5906404175810467171
+      four-seasons-platformer-01_3: 5784550366186664991
+      four-seasons-platformer-01_30: 2759099490142104302
+      four-seasons-platformer-01_31: -909326666164583959
+      four-seasons-platformer-01_32: -1271433428149668258
+      four-seasons-platformer-01_33: 3363722399006554198
+      four-seasons-platformer-01_34: -2376152640857716872
+      four-seasons-platformer-01_35: 8270820402450830419
+      four-seasons-platformer-01_36: 2017835367127291292
+      four-seasons-platformer-01_37: 969503489287831502
+      four-seasons-platformer-01_38: -8667215753275372688
+      four-seasons-platformer-01_39: 6824847833027929088
+      four-seasons-platformer-01_4: 3813457634305507080
+      four-seasons-platformer-01_40: 2356402380901686333
+      four-seasons-platformer-01_41: -7117359313119590622
+      four-seasons-platformer-01_42: 2033183396565486372
+      four-seasons-platformer-01_43: 4924843330266134212
+      four-seasons-platformer-01_44: -3601788453243254311
+      four-seasons-platformer-01_45: 342638703589841744
+      four-seasons-platformer-01_46: 8328986175876809341
+      four-seasons-platformer-01_47: 879181172228134069
+      four-seasons-platformer-01_48: -8193256345797367177
+      four-seasons-platformer-01_49: -4186357973423657954
+      four-seasons-platformer-01_5: 8350477655538701545
+      four-seasons-platformer-01_50: -7288063259834668527
+      four-seasons-platformer-01_51: -8904551072624918784
+      four-seasons-platformer-01_52: -6413710547487648471
+      four-seasons-platformer-01_6: -968605398549767049
+      four-seasons-platformer-01_7: 3667412438704199876
+      four-seasons-platformer-01_8: 8778671511375073531
+      four-seasons-platformer-01_9: -3019564124596751532
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

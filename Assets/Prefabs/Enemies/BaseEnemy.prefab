@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3058113425820186015}
   - component: {fileID: 2485879872924690851}
   - component: {fileID: 8460500187645697703}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: txtNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 6378248096833174775}
   - component: {fileID: 5695521304557510587}
   - component: {fileID: 3466428823340253846}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 352253825923675014}
   - component: {fileID: 7944410163170367620}
   - component: {fileID: 2458428137909436251}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BaseEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -267,6 +267,7 @@ MonoBehaviour:
   enemyNumber: 0
   navMeshAgent: {fileID: 4285778091138807194}
   enemyType: 0
+  txtNumber: {fileID: 0}
   distanceToFollow: 4
 --- !u!50 &6360044369607668203
 Rigidbody2D:
@@ -459,7 +460,7 @@ GameObject:
   - component: {fileID: 586163917947568687}
   - component: {fileID: 571759196809654819}
   - component: {fileID: 6131834158055046619}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: NumberCanva
   m_TagString: Untagged
   m_Icon: {fileID: 0}

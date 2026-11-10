@@ -1,25 +1,57 @@
+using PrimeTween;
 using TMPro;
 using UnityEngine;
+using static CommonEnums;
 
 public class NumberCollectable : MonoBehaviour, ICollectable
 {
     [SerializeField] int collectionNumber;
+    [SerializeField] BonusType bonusType;
     [SerializeField] TextMeshProUGUI txtTextField; // To DO
     [SerializeField] ParticleSystem collectedParticle;
 
     public int CollectedNumber => collectionNumber;
+
+    public BonusType BonusType => bonusType;
+
+    public bool IsCollected => isCollected;
+
+    private bool isCollected = false;
+
     private void Awake()
     {
-        this.txtTextField.text = collectionNumber.ToString();
+        this.txtTextField.text = $"{AddBonusOperationSyntax()}{collectionNumber.ToString()}";
+    }
+
+    string AddBonusOperationSyntax()
+    {
+        if (this.bonusType == BonusType.Add)
+        {
+            return "+";
+        }
+        else // multipl
+        {
+            return "*";
+        }
     }
 
     public void Collect()
     {
+        if (isCollected)
+        {
+            return;
+        }
 
-        PoolManager.Instance.Spawn(collectedParticle, this.transform.position, this.transform.rotation);
-        Debug.Log("Called Collect");
-        Destroy(this.gameObject);
-
+        if (!isCollected)
+        {
+            
+            isCollected = true;
+            PoolManager.Instance.Spawn(collectedParticle, this.transform.position, this.transform.rotation);
+            Tween.Scale(this.transform, Vector3.zero, .3F, Ease.OutQuad).OnComplete(() =>
+            {
+                Destroy(this.gameObject);
+            });
+        }
     }
 
 

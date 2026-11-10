@@ -33,6 +33,7 @@ public class TriangleEnemy : BaseEnemy
     {
         if (collision.gameObject.TryGetComponent<PlayerHealth>(out PlayerHealth playerHealth))
         {
+
             playerHealth.TakeDamage(this.enemyType, this.enemyNumber);
             Destroy(this.gameObject);
         }
